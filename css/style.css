@@ -1,43 +1,40 @@
-header{
-	background: #f7ffeb;
-	width : 100%;
-	height : 60px;
-	text-align: center;
-	margin: 0;
-	color: black;
-	top:0;
-	font-family: Arial;
-}
 body{
-	margin: -20px;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+.headerPart .titleAndButtonRow{
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+}
+.headerPart .titleAndButtonRow h2{
+	margin-right: 50px;
+	margin-left: 20px;
+}
+.headerPart .titleAndButtonRow button{
+	width: 200px;
+	border: 0px;
+	padding-top: 20px;
+	font-size: 25px;
+}
+.headerPart .titleAndButtonRow img{
+	width: 100px;
+	margin-right: 150px;
+}
+.headerPart{
+	background-color: #191b24;
+	width: 100%;
+	height:160px;
 }
 .middlePart{
-	display:flex;
-	flex-direction: row;
-	background-color: white;
-	height : 1000px;
+	height: 1000px;
+	border-radius: 5px;
+	border: 5px solid black;
+	margin: 50px;
+}
+.footerPart{
+	background-color: #191b24;
 	width: 100%;
-}
-.middlePart .sidebar{
-	display:flex;
-	flex-direction: column;
-	height: 100%;
-	width: 200px;
-	background-color: #bbfccc;
-}
-.middlePart .sidebar a{
-	border: 15px solid lightblue;
-	margin: 10px;
-}
-.middlePart .mainBox{
-	background-color:red;
-	width:100%;
-	height:100%;
-}
-footer{
-	width: 100%;
-	height:50px;
-	background-color: purple;
-	position: fixed;
-	bottom: 0;
+	height: 100px;
 }
